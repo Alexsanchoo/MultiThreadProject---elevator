@@ -11,8 +11,8 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class MainApp {
-    private static final int NUMBER_OF_FLOOR = 5;
-    private static final int NUMBER_OF_ELEVATOR = 3;
+    private static final int NUMBER_OF_FLOOR = 10;
+    private static final int NUMBER_OF_ELEVATOR = 5;
 
     public static void main(String[] args) {
         OfficeBuilding officeBuilding = OfficeBuilding.of(NUMBER_OF_FLOOR, NUMBER_OF_ELEVATOR);
