@@ -57,7 +57,7 @@ public class FloorServiceImpl implements FloorService {
         log.info("Floor: {}", floor);
         Floor result = floorList.get(floorList.indexOf(floor) + 1);
         TimeUnit.MILLISECONDS.sleep(Elevator.MOVE_SPEED);
-        log.info("Move to floor: {}", result);
+        log.info("Moved to floor: {}", result);
         return result;
     }
 
@@ -70,7 +70,7 @@ public class FloorServiceImpl implements FloorService {
         log.info("Floor: {}", floor);
         Floor result = floorList.get(floorList.indexOf(floor) - 1);
         TimeUnit.MILLISECONDS.sleep(Elevator.MOVE_SPEED);
-        log.info("Move to floor: {}", result);
+        log.info("Moved to floor: {}", result);
         return result;
     }
 

@@ -20261,3 +20261,43 @@
 11.12.2020 22:21:35.021 [elevator-3] INFO   com.sanchoo.elevator.entity.statistics.Statistics - Statistics: Statistics{numberFloorFor=2, numberFloorTo=7, numberOfPersonsMove=1}
 11.12.2020 22:21:35.021 [elevator-3] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Weight after landing: 96
 11.12.2020 22:21:35.021 [elevator-3] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Closing doors
+11.12.2020 23:03:09.871 [main] INFO   com.sanchoo.elevator.entity.building.OfficeBuilding - Starting elevators and generation of people on the floors in office building '5311b900-7164-4899-bf2c-0421f6b99eff'
+11.12.2020 23:03:09.902 [main] INFO   com.sanchoo.elevator.entity.building.OfficeBuilding - Starting elevators and generation of people on the floors in office building '4fa12137-ad0a-4d42-8db8-839749b8be1a'
+11.12.2020 23:03:09.907 [main] INFO   com.sanchoo.elevator.entity.building.OfficeBuilding - Starting elevators and generation of people on the floors in office building 'ec0132d6-7bc7-4569-929a-49e32b18156e'
+11.12.2020 23:03:09.939 [main] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Opening doors
+11.12.2020 23:03:10.246 [main] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Opened doors
+11.12.2020 23:03:10.253 [main] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Weight: 0
+11.12.2020 23:03:10.253 [main] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Landing: [Person{weight=100, floor=2}, Person{weight=80, floor=2}]
+11.12.2020 23:03:10.254 [main] INFO   com.sanchoo.elevator.entity.statistics.Statistics - Statistics: Statistics{numberFloorFor=1, numberFloorTo=2, numberOfPersonsMove=2}
+11.12.2020 23:03:10.254 [main] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Weight after landing: -180
+11.12.2020 23:03:10.258 [elevator-1] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Waiting call...
+11.12.2020 23:03:11.281 [main] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Opening doors
+11.12.2020 23:03:11.582 [main] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Opened doors
+11.12.2020 23:03:11.583 [main] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Opening doors
+11.12.2020 23:03:11.899 [main] INFO   com.sanchoo.elevator.entity.elevator.Elevator - Opened doors
+11.12.2020 23:03:11.905 [main] INFO   com.sanchoo.elevator.entity.floor.Floor - Take person Person{weight=25, floor=2} from down queue
+11.12.2020 23:03:11.905 [main] INFO   com.sanchoo.elevator.entity.floor.Floor - Take person Person{weight=30, floor=1} from down queue
+11.12.2020 23:03:11.910 [main] INFO   com.sanchoo.elevator.entity.floor.Floor - Take person Person{weight=25, floor=3} from up queue
+11.12.2020 23:03:11.910 [main] INFO   com.sanchoo.elevator.entity.floor.Floor - Take person Person{weight=30, floor=4} from up queue
+11.12.2020 23:03:11.913 [floor-2] INFO   com.sanchoo.elevator.entity.floor.Floor - Up: [], Down: []
+11.12.2020 23:03:12.940 [floor-1] INFO   com.sanchoo.elevator.entity.floor.GroundFloor - Up: []
+11.12.2020 23:03:13.952 [floor-2] INFO   com.sanchoo.elevator.entity.floor.LastFloor - Down: [Person{weight=54, floor=1}, Person{weight=19, floor=1}, Person{weight=90, floor=1}, Person{weight=22, floor=1}, Person{weight=79, floor=1}]
+11.12.2020 23:03:13.953 [floor-2] INFO   com.sanchoo.elevator.service.implementation.CallingElevatorServiceImpl - Put: CallingElevator{floor=2, mode=DOWN, isCallProcessed=false}
+11.12.2020 23:03:14.966 [main] INFO   com.sanchoo.elevator.entity.statistics.Statistics - Statistics: Statistics{numberFloorFor=1, numberFloorTo=2, numberOfPersonsMove=0}
+11.12.2020 23:03:14.966 [main] INFO   com.sanchoo.elevator.entity.statistics.Statistics - Statistics: Statistics{numberFloorFor=2, numberFloorTo=3, numberOfPersonsMove=0}
+11.12.2020 23:03:14.967 [main] INFO   com.sanchoo.elevator.entity.statistics.Statistics - Statistics: Statistics{numberFloorFor=1, numberFloorTo=2, numberOfPersonsMove=0}
+11.12.2020 23:03:14.967 [main] INFO   com.sanchoo.elevator.entity.statistics.Statistics - Statistics: Statistics{numberFloorFor=2, numberFloorTo=3, numberOfPersonsMove=0}
+11.12.2020 23:03:14.989 [main] INFO   com.sanchoo.elevator.service.implementation.FloorServiceImpl - Floor: Floor{number=1, queueDown=[], queueUp=[], isUpButtonPressedfalse, isDownButtonPressedfalse}
+11.12.2020 23:03:15.994 [main] INFO   com.sanchoo.elevator.service.implementation.FloorServiceImpl - Move to floor: Floor{number=2, queueDown=[], queueUp=[], isUpButtonPressedfalse, isDownButtonPressedfalse}
+11.12.2020 23:03:15.994 [main] INFO   com.sanchoo.elevator.service.implementation.FloorServiceImpl - Floor: Floor{number=2, queueDown=[], queueUp=[], isUpButtonPressedfalse, isDownButtonPressedfalse}
+11.12.2020 23:03:17.004 [main] INFO   com.sanchoo.elevator.service.implementation.FloorServiceImpl - Move to floor: Floor{number=1, queueDown=[], queueUp=[], isUpButtonPressedfalse, isDownButtonPressedfalse}
+11.12.2020 23:03:17.005 [main] INFO   com.sanchoo.elevator.service.implementation.FloorServiceImpl - Floor: Floor{number=1, queueDown=[], queueUp=[], isUpButtonPressedfalse, isDownButtonPressedfalse}
+11.12.2020 23:03:18.015 [main] INFO   com.sanchoo.elevator.service.implementation.FloorServiceImpl - Move to floor: Floor{number=2, queueDown=[], queueUp=[], isUpButtonPressedfalse, isDownButtonPressedfalse}
+11.12.2020 23:03:18.017 [main] INFO   com.sanchoo.elevator.service.implementation.FloorServiceImpl - Floor: Floor{number=2, queueDown=[], queueUp=[], isUpButtonPressedfalse, isDownButtonPressedfalse}
+11.12.2020 23:03:19.028 [main] INFO   com.sanchoo.elevator.service.implementation.FloorServiceImpl - Move to floor: Floor{number=1, queueDown=[], queueUp=[], isUpButtonPressedfalse, isDownButtonPressedfalse}
+11.12.2020 23:03:19.033 [main] INFO   com.sanchoo.elevator.service.implementation.CallingElevatorServiceImpl - Put: CallingElevator{floor=2, mode=DOWN, isCallProcessed=false}
+11.12.2020 23:03:19.033 [main] INFO   com.sanchoo.elevator.service.implementation.CallingElevatorServiceImpl - call is processed CallingElevator{floor=2, mode=DOWN, isCallProcessed=true}
+11.12.2020 23:03:19.034 [main] INFO   com.sanchoo.elevator.service.implementation.CallingElevatorServiceImpl - Put: CallingElevator{floor=2, mode=DOWN, isCallProcessed=false}
+11.12.2020 23:03:19.034 [main] INFO   com.sanchoo.elevator.service.implementation.CallingElevatorServiceImpl - Take from queue: CallingElevator{floor=2, mode=DOWN, isCallProcessed=false}
+11.12.2020 23:03:19.035 [main] INFO   com.sanchoo.elevator.service.implementation.CallingElevatorServiceImpl - Put: CallingElevator{floor=2, mode=DOWN, isCallProcessed=false}
+11.12.2020 23:03:19.036 [main] INFO   com.sanchoo.elevator.service.implementation.CallingElevatorServiceImpl - Take: CallingElevator{floor=2, mode=DOWN, isCallProcessed=false}
